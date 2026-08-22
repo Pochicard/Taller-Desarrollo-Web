@@ -1,0 +1,62 @@
+body {
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+    color: #d4a537;
+}
+
+.ficha {
+    background-color: #2a2a2a !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ficha:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(212, 165, 55, 0.3) !important;
+}
+
+.ficha[data-tipo="heroe"] {
+    border-color: #d4a537 !important;
+}
+
+.ficha[data-tipo="villano"] {
+    border-color: #8e44ad !important;
+}
+
+.ficha .nombre {
+    color: #d4a537;
+}
+
+.ficha .clase {
+    color: #aaa;
+    font-style: italic;
+}
+
+.stats li {
+    padding: 6px 8px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.stats li:nth-child(odd) {
+    background-color: #222222;
+}
+
+.stats li:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.vida {
+    color: #e74c3c;
+}
+
+.resaltado {
+    border: 3px solid #ffc107 !important;
+    box-shadow: 0 0 15px rgba(255, 193, 7, 0.8) !important;
+}
+
+.borde-redondeado {
+    border-radius: 12px;
+}

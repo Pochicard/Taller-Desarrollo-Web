@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legends of Aetheria</title>
+</head>
+<body style="margin: 0; font-family: Georgia, 'Times New Roman', serif; background-color: #1a1a1a;">
+
+  <section style="padding: 60px 20px; text-align: center;">
+
+    <h1 style="font-size: 2.2rem; color: #d4a537;">
+      Bienvenidos al mundo de Aetheria
+    </h1>
+
+    <p style="max-width: 500px; margin: 20px auto; font-size: 1.1rem; color: #e6e6e6;">
+      Descubre a los héroes y villanos que dan vida a este universo de fantasía oscura.
+    </p>
+
+    <a href="personajes.html" style="background-color: #d4a537; color: #1a1a1a; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px;">
+      Ver Personajes
+    </a>
+
+  </section>
+
+</body>
+</html>
